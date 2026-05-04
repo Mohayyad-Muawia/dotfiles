@@ -1,0 +1,150 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "color": {
+      "1": "magenta",
+      "2": "white",
+    },
+    "padding": {
+      "top": 4,
+    },
+  },
+  "display": {
+    "separator": " ➜ ",
+  },
+  "modules": [
+    "break",
+
+    {
+      "type": "title",
+      "keyWidth": 8,
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[31m━━━━━\u001b[32m━━━━━\u001b[33m━━━━━\u001b[34m━━━━━\u001b[35m━━━━━\u001b[36m━━━━━\u001b[37m━━━━\u001b[0m",
+    },
+
+    {
+      "type": "os",
+      "format": "{3}",
+      "key": " OS   ",
+      "keyColor": "31",
+    },
+    {
+      "type": "kernel",
+      "key": " ├   ",
+      "keyColor": "31",
+    },
+    {
+      "type": "packages",
+      "key": " ├   ",
+      "keyColor": "31",
+    },
+    {
+      "type": "shell",
+      "key": " └   ",
+      "keyColor": "31",
+    },
+    "break",
+
+    {
+      "type": "command",
+      "key": " WM   ",
+      "keyColor": "32",
+      "text": "echo 'Niri (Noctalia Shell)'",
+    },
+    {
+      "type": "wmtheme",
+      "key": " ├ 󰉼  ",
+      "keyColor": "32",
+    },
+    {
+      "type": "icons",
+      "key": " ├ 󰀻  ",
+      "keyColor": "32",
+    },
+    {
+      "type": "cursor",
+      "key": " ├   ",
+      "keyColor": "32",
+    },
+    {
+      "type": "terminal",
+      "key": " ├   ",
+      "keyColor": "32",
+    },
+    {
+      "type": "terminalfont",
+      "key": " └   ",
+      "keyColor": "32",
+    },
+    "break",
+
+    {
+      "type": "host",
+      "format": "{2} {6}",
+      "key": " PC   ",
+      "keyColor": "33",
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": " ├   ",
+      "keyColor": "33",
+    },
+    {
+      "type": "gpu",
+      "format": "{1} {2}",
+      "key": " ├ 󰢮  ",
+      "keyColor": "33",
+    },
+    {
+      "type": "memory",
+      "key": " ├   ",
+      "keyColor": "33",
+    },
+    {
+      "type": "swap",
+      "key": " ├ 󰓡  ",
+      "keyColor": "33",
+    },
+    {
+      "type": "monitor",
+      "format": "{6} inch {2}x{3}p ({11} hz)",
+      "key": " └   ",
+      "keyColor": "33",
+    },
+    "break",
+
+    {
+      "type": "uptime",
+      "key": " UP   ",
+      "keyColor": "34",
+    },
+    {
+      "type": "datetime",
+      "format": "{1}-{3}-{11}",
+      "key": " ├   ",
+      "keyColor": "34",
+    },
+    {
+      "type": "command",
+      "key": " └   ",
+      "keyColor": "34",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
+    },
+
+    {
+      "type": "custom",
+      "format": "\u001b[31m━━━━━\u001b[32m━━━━━\u001b[33m━━━━━\u001b[34m━━━━━\u001b[35m━━━━━\u001b[36m━━━━━\u001b[37m━━━━\u001b[0m",
+    },
+    "break",
+
+    {
+      "type": "custom",
+      "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m ",
+    },
+    "break",
+  ],
+}
