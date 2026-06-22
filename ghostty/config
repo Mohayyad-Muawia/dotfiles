@@ -1,12 +1,12 @@
-﻿# Font Configuration
-font-family = "JetBrainsMono Nerd Font"
+# Font Configuration
 font-size = 12
 
 # Window Configuration
 window-decoration = false
 window-padding-x = 12
 window-padding-y = 12
-background-opacity = 0.6
+background-opacity = 0.3
+background-blur-radius = 32
 
 # Cursor Configuration
 cursor-style = block
@@ -21,7 +21,7 @@ copy-on-select = false
 confirm-close-surface = false
 
 # Disable annoying copied to clipboard
-# app-notifications = no-clipboard-copy,no-config-reload
+app-notifications = no-clipboard-copy,no-config-reload
 
 # Key bindings for common actions
 #keybind = ctrl+c=copy_to_clipboard
@@ -48,4 +48,4 @@ keybind = shift+enter=text:\n
 gtk-single-instance = true
 
 # Dank color generation
-theme = noctalia
+theme = dankcolors
