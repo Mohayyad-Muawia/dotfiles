@@ -1,0 +1,40 @@
+layout {
+
+    focus-ring {
+        active-color   "#dcc66e"
+        inactive-color "#16130b"
+        urgent-color   "#ffb4ab"
+    }
+
+    border {
+        active-color   "#dcc66e"
+        inactive-color "#16130b"
+        urgent-color   "#ffb4ab"
+    }
+
+    shadow {
+        color "#00000070"
+    }
+
+    tab-indicator {
+        active-color   "#dcc66e"
+        inactive-color "#544600"
+        urgent-color   "#ffb4ab"
+    }
+
+    insert-hint {
+        color "#dcc66e80"
+    }
+}
+
+recent-windows {
+    highlight {
+        active-color "#dcc66e"
+        urgent-color "#ffb4ab"
+    }
+}
+
+layer-rule {
+  match namespace="^noctalia-backdrop"
+  place-within-backdrop true
+}
